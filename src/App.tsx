@@ -15,6 +15,7 @@ const AppMain = styled.main`
 `
 
 const App: React.FC = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [lang, setLang] = useState('en')
 
   return (
