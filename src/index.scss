@@ -1,0 +1,16 @@
+// Override default variables before the import
+$body-bg: #2C2F33;
+$body-color: white;
+$link-color: white;
+$primary: #7289DA;
+$dark: #23272A;
+$input-bg: rgba(114,118,125,.3);
+$input-border-color: rgba(114,118,125,.3);
+$input-color: hsla(0,0%,100%,.7);
+$input-focus-border-color: rgba(114,118,125,.3);
+$input-focus-box-shadow: none;
+$list-group-bg: rgba(114,118,125,.3);
+$list-group-border-color: #23272A;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
